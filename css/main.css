@@ -1,0 +1,723 @@
+* {
+    Font-family: Copperplate, Copperplate Gothic Light, fantasy;
+    margin: 0;
+    padding: 0; }
+  
+  body {
+    Font-family: Copperplate, Copperplate Gothic Light, fantasy;
+    background-image: url(https://img.freepik.com/vector-premium/fondo-copa-mundial-futbol-banner-campeonato-futbol-2022-qatar_29865-3052.jpg?w=2000);
+    background-size: 100%; }
+  
+  li {
+    Font-family: Calisto MT, Bookman Old Style, Bookman, Goudy Old Style, Garamond, Hoefler Text, Bitstream Charter, Georgia, serif;
+    padding: 7px;
+    color: white; }
+  
+  h2 {
+    color: white;
+    border-radius: 300px;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    margin: 10px;
+    margin-top: 10px; }
+  
+  .grid-container {
+    display: grid;
+    grid-template-areas: "header"
+   "main"
+   "footer";
+    grid-template: "header" 220px
+   "main"   auto
+   "footer" 100px /
+   auto; }
+  
+  header {
+    grid-area: header;
+    display: flex;
+    justify-content: center;
+    background-image: url(https://as01.epimg.net/mexico/imagenes/2022/08/06/reportajes/1659755377_894842_1660291127_noticiareportajes_grande.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 0px -430px; }
+  
+  main {
+    grid-area: main; }
+  
+  footer {
+    grid-area: footer; }
+  
+  @media (max-width: 600px) {
+    .grupos2 {
+      flex-direction: column;
+      justify-content: center; }
+    .grupos1 {
+      flex-direction: column;
+      justify-content: center; }
+    .primergrupo {
+      border-style: dashed;
+      border-color: lightblue;
+      border-width: 3px;
+      background-image: linear-gradient(to bottom, #505459, #5f6368, #6e7378, #7e8388, #8e9399);
+      flex-direction: column;
+      margin: 0px;
+      border-radius: 2px; }
+    img {
+      width: 21rem;
+      align-items: center;
+      justify-content: center;
+      padding-left: 6px;
+      padding-top: 6px; }
+    .card {
+      display: flex;
+      flex-direction: column;
+      justify-content: center; }
+    .grupoall2 {
+      display: flex;
+      flex-direction: column;
+      width: 700px;
+      margin-left: 27px; }
+    h1 {
+      color: yellow;
+      border-radius: 300px;
+      display: flex;
+      justify-content: center;
+      padding: 10px;
+      border-style: dashed;
+      border-color: yellow;
+      border-width: 2px;
+      margin-left: 33px;
+      width: 300px;
+      background-color: #666565; } }
+  
+  @media (min-width: 850px) {
+    .grupos2 {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around; }
+    .grupos1 {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around; }
+    .primergrupo {
+      display: flex;
+      flex-direction: row;
+      margin: 48px;
+      border-style: dashed;
+      border-color: lightblue;
+      border-width: 3px;
+      background-image: linear-gradient(to bottom, #505459, #5f6368, #6e7378, #7e8388, #8e9399);
+      border-radius: 38px; }
+    img {
+      width: 34rem; }
+    .card {
+      padding-left: 200px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center; }
+    .grupoall2 {
+      display: flex;
+      flex-direction: column;
+      width: 700px;
+      margin-left: 240px; }
+    h1 {
+      color: yellow;
+      border-radius: 300px;
+      display: flex;
+      justify-content: center;
+      padding: 10px;
+      border-style: dashed;
+      border-color: yellow;
+      border-width: 2px;
+      margin-left: 600px;
+      width: 300px;
+      background-color: #666565; } }
+  
+  .ecuador {
+    background-image: url(https://i.pinimg.com/736x/c8/b1/09/c8b10946db1aaeb133f9ac4a91c2f499.jpg);
+    background-repeat: no-repeat;
+    background-position: -300px -170px;
+    box-shadow: 7px 7px 15px #fbff00; }
+  
+  .ecuador2 {
+    background-image: linear-gradient(to bottom, #ffe000, #f2e116, #e6e224, #dae32f, #cee33a);
+    box-shadow: 7px 7px 15px #fbff00; }
+  
+  .paisesbajos {
+    background-image: url(https://besthqwallpapers.com/Uploads/4-1-2017/11885/thumb2-dutch-flag-silk-flag-of-holland-flags-holland-flag.jpg);
+    background-repeat: no-repeat;
+    background-position: 0px -20px;
+    box-shadow: 7px 7px 15px #ff9100; }
+  
+  .paisesbajos2 {
+    background-image: linear-gradient(to top, #082d66, #38487e, #5c6597, #7e85b1, #a1a5cb);
+    box-shadow: 7px 7px 15px #ff9100; }
+  
+  .qatar {
+    background-image: url(https://i.pinimg.com/736x/54/f1/4d/54f14d000720b4af4e41d7471c1e4b4c.jpg);
+    background-position: -80px -20px;
+    background-repeat: no-repeat;
+    box-shadow: 7px 7px 15px #702a04; }
+  
+  .qatar2 {
+    background-image: linear-gradient(to bottom, #040b0e, #040b0d, #050a0d, #050a0c, #05090b);
+    box-shadow: 7px 7px 15px #702a04; }
+  
+  .senegal {
+    background-image: url(https://besthqwallpapers.com/Uploads/8-11-2017/27638/thumb2-senegalese-flag-4k-grunge-flag-of-senegal-africa.jpg);
+    background-repeat: no-repeat;
+    background-position: -225px;
+    box-shadow: 7px 7px 15px #f00b0b; }
+  
+  .senegal2 {
+    background-image: linear-gradient(to bottom, #db0000, #cc0001, #bd0101, #ae0101, #9f0101);
+    box-shadow: 7px 7px 15px #f00b0b; }
+  
+  .estadosunidos {
+    background-image: url(https://thumbs.dreamstime.com/b/bandera-del-humo-de-los-estados-unidos-am%C3%A9rica-americana-e-u-114202705.jpg);
+    background-repeat: no-repeat;
+    box-shadow: 7px 7px 15px #ffffff; }
+  
+  .estadosunidos2 {
+    background-image: linear-gradient(to top, #082d66, #38487e, #5c6597, #7e85b1, #a1a5cb);
+    box-shadow: 7px 7px 15px #ffffff; }
+  
+  .gales {
+    background-image: url(https://w0.peakpx.com/wallpaper/866/492/HD-wallpaper-welsh-flag-silk-wavy-flags-european-countries-national-symbols-flag-of-wales-fabric-flags-wales-flag-3d-art-wales-europe-wales-3d-flag.jpg);
+    background-repeat: no-repeat;
+    background-position: -60px 0px;
+    box-shadow: 7px 7px 15px #2df704; }
+  
+  .gales2 {
+    background-image: linear-gradient(to bottom, #144a22, #175427, #195f2b, #1c6a30, #1f7535);
+    box-shadow: 7px 7px 15px #2df704; }
+  
+  .iran {
+    background-image: url(https://w0.peakpx.com/wallpaper/370/60/HD-wallpaper-iran-satin-country-flag.jpg);
+    background-repeat: no-repeat;
+    background-position: -250px -20px;
+    box-shadow: 7px 7px 15px #f70404; }
+  
+  .iran2 {
+    background-image: linear-gradient(to bottom, #db0000, #cc0001, #bd0101, #ae0101, #9f0101);
+    box-shadow: 7px 7px 15px #f70404; }
+  
+  .inglaterra {
+    background-image: url(https://static9.depositphotos.com/1611230/1092/i/600/depositphotos_10925006-stock-photo-houses-of-parliament-with-flag.jpg);
+    background-repeat: no-repeat;
+    background-position: -140px -20px;
+    box-shadow: 7px 7px 15px #ffffff; }
+  
+  .inglaterra2 {
+    background-image: linear-gradient(to top, #082d66, #38487e, #5c6597, #7e85b1, #a1a5cb);
+    box-shadow: 7px 7px 15px #ffffff; }
+  
+  .argentina {
+    background-image: url("https://thumbs.dreamstime.com/b/bandera-gruesa-de-argentina-color-gris-abstracto-la-rep%C3%BAblica-plantilla-para-afiches-pancartas-volantes-invitaciones-etc-171884471.jpg");
+    background-repeat: no-repeat;
+    background-position: -280px -70px;
+    box-shadow: 7px 7px 15px #00a6ffd6; }
+  
+  .argentina2 {
+    background-image: linear-gradient(to bottom, #0c90cc, #0d8ac3, #0e84b9, #0f7eb0, #1078a7);
+    box-shadow: 7px 7px 15px #00a6ffd6; }
+  
+  .grupoa {
+    display: flex;
+    flex-direction: row; }
+  
+  .arabia {
+    background-image: url(https://thumbs.dreamstime.com/b/saudi-arabia-smoke-flag-isolated-black-background-saudi-arabia-national-smoke-flag-103774172.jpg);
+    background-repeat: no-repeat;
+    background-position: -246px -75px;
+    box-shadow: 7px 7px 15px #000b00; }
+  
+  .arabia2 {
+    background-image: linear-gradient(to bottom, #144a22, #175427, #195f2b, #1c6a30, #1f7535);
+    box-shadow: 7px 7px 15px #000b00; }
+  
+  .mexico {
+    background-image: url(https://media.istockphoto.com/photos/grunge-mexico-flag-mexican-flag-with-grunge-texture-picture-id683162182?k=20&m=683162182&s=170667a&w=0&h=8KcfVFXEdla4U4wFaSrZd2K1CcIn0oNnuzzMfkx9_0U=);
+    background-position: -120px 30px;
+    box-shadow: 7px 7px 15px #ffffff; }
+  
+  .mexico2 {
+    background-image: linear-gradient(to bottom, #db0000, #cc0001, #bd0101, #ae0101, #9f0101);
+    box-shadow: 7px 7px 15px #ffffff; }
+  
+  .polonia {
+    background-image: url(https://p4.wallpaperbetter.com/wallpaper/661/911/721/flag-poland-wallpaper-preview.jpg);
+    box-shadow: 7px 7px 15px #ff0000; }
+  
+  .polonia2 {
+    background-image: linear-gradient(to bottom, #db0000, #cc0001, #bd0101, #ae0101, #9f0101);
+    box-shadow: 7px 7px 15px #ff0000; }
+  
+  .australia {
+    background-image: url(https://w0.peakpx.com/wallpaper/921/991/HD-wallpaper-australian-flag-oceania-national-symbols-flag-of-australia-3d-art-australia-oceanian-countries-australia-3d-flag.jpg);
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+    box-shadow: 7px 7px 15px #0e05c0; }
+  
+  .australia2 {
+    background-image: linear-gradient(to top, #082d66, #38487e, #5c6597, #7e85b1, #a1a5cb);
+    box-shadow: 7px 7px 15px #0e05c0; }
+  
+  .dinamarca {
+    background-image: url(https://static8.depositphotos.com/1164100/897/i/600/depositphotos_8971063-stock-photo-denmark-flag-on-old-vintage.jpg);
+    background-repeat: no-repeat;
+    background-position: -140px -20px;
+    box-shadow: 7px 7px 15px #9b0707; }
+  
+  .dinamarca2 {
+    background-image: linear-gradient(to bottom, #db0000, #cc0001, #bd0101, #ae0101, #9f0101);
+    box-shadow: 7px 7px 15px #9b0707; }
+  
+  .francia {
+    background-image: url(https://media.istockphoto.com/photos/eiffel-tower-and-french-flag-in-paris-france-picture-id538992444?k=20&m=538992444&s=170667a&w=0&h=q4gUqII2fVqWnVNXy0P0iUYug6R_-3F3GytFtY_lll8=);
+    background-position: 320px 460px;
+    box-shadow: 7px 7px 15px #ffffff; }
+  
+  .francia2 {
+    background-image: linear-gradient(to top, #082d66, #38487e, #5c6597, #7e85b1, #a1a5cb);
+    box-shadow: 7px 7px 15px #ffffff; }
+  
+  .tunez {
+    background-image: url(https://media.istockphoto.com/photos/tunisia-flag-rumpled-close-up-picture-id1092636120?k=20&m=1092636120&s=612x612&w=0&h=gVLh__sAIW0wXRa1ozJFAN27yCNzp2b6hlA-ahTofLU=);
+    box-shadow: 7px 7px 15px #ff0000;
+    background-position: -100px 2px; }
+  
+  .tunez2 {
+    background-image: linear-gradient(to bottom, #db0000, #cc0001, #bd0101, #ae0101, #9f0101);
+    box-shadow: 7px 7px 15px #ff0000; }
+  
+  .alemania {
+    background-image: url(https://media.istockphoto.com/photos/germany-german-flag-textile-cloth-fabric-waving-on-the-top-sunrise-picture-id1060007776?k=20&m=1060007776&s=612x612&w=0&h=UZQpt51JTe8_oMc-COiCt04V6nppfhxMHa5viqSII54=);
+    background-repeat: no-repeat;
+    background-position: -90px -28px;
+    box-shadow: 7px 7px 15px #fbff00; }
+  
+  .alemania2 {
+    background-image: linear-gradient(to bottom, #e5e825, #d5d723, #c4c722, #b5b720, #a5a71e);
+    box-shadow: 7px 7px 15px #fbff00; }
+  
+  .costarica {
+    background-image: url(https://media.istockphoto.com/photos/costa-rica-flag-rumpled-close-up-picture-id1092612854?b=1&k=20&m=1092612854&s=170667a&w=0&h=guNfzcgVo86fjZUKJIV0dEOrHEkeOHuzdJPxpqsi22o=);
+    box-shadow: 7px 7px 15px #3011cb; }
+  
+  .costarica2 {
+    background-image: linear-gradient(to top, #082d66, #38487e, #5c6597, #7e85b1, #a1a5cb);
+    box-shadow: 7px 7px 15px #3011cb; }
+  
+  .espana {
+    background-image: url(https://static4.depositphotos.com/1006839/378/i/600/depositphotos_3789816-stock-photo-flag-of-spain.jpg);
+    background-repeat: no-repeat;
+    background-position: -120px -10px;
+    box-shadow: 7px 7px 15px #f81111; }
+  
+  .espana2 {
+    background-image: linear-gradient(to bottom, #db0000, #cc0001, #bd0101, #ae0101, #9f0101);
+    box-shadow: 7px 7px 15px #f81111; }
+  
+  .japon {
+    background-image: url(https://w0.peakpx.com/wallpaper/816/712/HD-wallpaper-japanese-flag-grunge-flag-of-japan-asia-japan-national-symbols-japan-national-flag.jpg);
+    background-repeat: no-repeat;
+    background-position: -210px 0px;
+    box-shadow: 7px 7px 15px #ffffff; }
+  
+  .japon2 {
+    background-image: linear-gradient(to bottom, #db0000, #cc0001, #bd0101, #ae0101, #9f0101);
+    box-shadow: 7px 7px 15px #ffffff; }
+  
+  .belgica {
+    background-image: url(https://us.123rf.com/450wm/mironovak/mironovak1709/mironovak170900020/85198076-bandera-de-b%C3%A9lgica-o-bandera-belga-en-textura-%C3%A1spera-de-socorro.jpg?ver=6);
+    background-position: -90px;
+    box-shadow: 7px 7px 15px #000000; }
+  
+  .belgica2 {
+    background-image: linear-gradient(to bottom, #040b0e, #040b0d, #050a0d, #050a0c, #05090b);
+    box-shadow: 7px 7px 15px #000000; }
+  
+  .canada {
+    background-image: url(https://p4.wallpaperbetter.com/wallpaper/201/716/861/flags-flag-of-canada-canada-canadian-flag-wallpaper-preview.jpg);
+    background-position: -100px;
+    box-shadow: 7px 7px 15px #ffffff; }
+  
+  .canada2 {
+    background-image: linear-gradient(to bottom, #db0000, #cc0001, #bd0101, #ae0101, #9f0101);
+    box-shadow: 7px 7px 15px #ffffff; }
+  
+  .croacia {
+    background-image: url(https://w0.peakpx.com/wallpaper/846/577/HD-wallpaper-croatia-flag.jpg);
+    background-position: -250px;
+    box-shadow: 7px 7px 15px #1d1ae9; }
+  
+  .croacia2 {
+    background-image: linear-gradient(to top, #082d66, #38487e, #5c6597, #7e85b1, #a1a5cb);
+    box-shadow: 7px 7px 15px #1d1ae9; }
+  
+  .marruecos {
+    background-image: url(https://c8.alamy.com/zoomses/9/87437af8096b49d3881566c569527cf3/2ae4ark.jpg);
+    background-position: -100px -130px;
+    box-shadow: 7px 7px 15px #e30e0e; }
+  
+  .marruecos2 {
+    background-image: linear-gradient(to bottom, #db0000, #cc0001, #bd0101, #ae0101, #9f0101);
+    box-shadow: 7px 7px 15px #e30e0e; }
+  
+  .brasil {
+    background-image: url(https://besthqwallpapers.com/Uploads/3-11-2021/180114/thumb2-brazil-map-4k-south-american-countries-brazilian-flag-green-carbon-background.jpg);
+    background-position: -250px -40px;
+    background-repeat: no-repeat;
+    box-shadow: 7px 7px 15px #e9fd07; }
+  
+  .brasil2 {
+    background-image: linear-gradient(to bottom, #e5e825, #d5d723, #c4c722, #b5b720, #a5a71e);
+    box-shadow: 7px 7px 15px #e9fd07; }
+  
+  .camerun {
+    background-image: url(https://static9.depositphotos.com/1637295/1123/i/600/depositphotos_11239366-stock-photo-brushstroke-flag-cameroon.jpg);
+    background-position: -130px;
+    box-shadow: 7px 7px 15px #17a508; }
+  
+  .camerun2 {
+    background-image: linear-gradient(to bottom, #144a22, #175427, #195f2b, #1c6a30, #1f7535);
+    box-shadow: 7px 7px 15px #17a508; }
+  
+  .serbia {
+    background-image: url(https://p4.wallpaperbetter.com/wallpaper/780/807/760/flags-flag-of-serbia-flag-serbian-flag-hd-wallpaper-preview.jpg);
+    background-position: -150px;
+    box-shadow: 7px 7px 15px #1019cd; }
+  
+  .serbia2 {
+    background-image: linear-gradient(to bottom, #0c90cc, #0d8ac3, #0e84b9, #0f7eb0, #1078a7);
+    box-shadow: 7px 7px 15px #1019cd; }
+  
+  .suiza {
+    background-image: url(https://st4.depositphotos.com/5625700/20161/i/600/depositphotos_201614018-stock-photo-grunge-switzerland-flag-swiss-flag.jpg);
+    background-position: -150px 30px;
+    box-shadow: 7px 7px 15px #ff0000; }
+  
+  .suiza2 {
+    background-image: linear-gradient(to bottom, #db0000, #cc0001, #bd0101, #ae0101, #9f0101);
+    box-shadow: 7px 7px 15px #ff0000; }
+  
+  .corea {
+    background-image: url(https://p4.wallpaperbetter.com/wallpaper/13/578/507/color-line-round-flag-wallpaper-preview.jpg);
+    background-position: -100px -30px;
+    box-shadow: 7px 7px 15px #ffffffd6; }
+  
+  .corea2 {
+    background-image: linear-gradient(to top, #082d66, #38487e, #5c6597, #7e85b1, #a1a5cb);
+    box-shadow: 7px 7px 15px #ffffffd6; }
+  
+  .ghana {
+    background-image: url(https://i.pinimg.com/originals/3e/9e/2e/3e9e2e01acb416dbf3e27737d1f42a9e.png);
+    background-position: -215px -30px;
+    box-shadow: 7px 7px 15px #13881dd6; }
+  
+  .ghana2 {
+    background-image: linear-gradient(to bottom, #144a22, #175427, #195f2b, #1c6a30, #1f7535);
+    box-shadow: 7px 7px 15px #13881dd6; }
+  
+  .portugal {
+    background-image: url(https://p4.wallpaperbetter.com/wallpaper/751/348/55/flags-flag-of-portugal-flag-portuguese-flag-hd-wallpaper-preview.jpg);
+    background-position: -200px -20px;
+    box-shadow: 7px 7px 15px #ff0000d6; }
+  
+  .portugal2 {
+    background-image: linear-gradient(to bottom, #db0000, #cc0001, #bd0101, #ae0101, #9f0101);
+    box-shadow: 7px 7px 15px #ff0000d6; }
+  
+  .uruguay {
+    background-image: url(https://thumbs.dreamstime.com/b/bandera-del-humo-de-uruguay-en-un-fondo-negro-119022555.jpg);
+    background-position: -80px -60px;
+    box-shadow: 7px 7px 15px #00a6ffd6; }
+  
+  .uruguay2 {
+    background-image: linear-gradient(to bottom, #0c90cc, #0d8ac3, #0e84b9, #0f7eb0, #1078a7);
+    box-shadow: 7px 7px 15px #00a6ffd6; }
+  
+  .card-text {
+    color: aqua;
+    font-family: Calisto MT, Bookman Old Style, Bookman, Goudy Old Style, Garamond, Hoefler Text, Bitstream Charter, Georgia, serif; }
+  
+  .atras {
+    margin-top: 4px;
+    color: yellow;
+    border-radius: 9px;
+    width: 100%;
+    padding-left: 37px;
+    padding-right: 37px; }
+  
+  .card-info {
+    display: flex;
+    justify-content: center;
+    font-family: Calisto MT, Bookman Old Style, Bookman, Goudy Old Style, Garamond, Hoefler Text, Bitstream Charter, Georgia, serif;
+    text-decoration: none;
+    color: white; }
+  
+  .card-link {
+    color: blue; }
+  
+  .deck {
+    margin: 15px;
+    width: 270px;
+    height: 380px;
+    position: relative;
+    -webkit-perspective: 1000px;
+    perspective: 1000px;
+    font-family: verdana;
+    border-radius: 10px; }
+  
+  .card1 {
+    width: 100%;
+    height: 100%;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    -webkit-transition: all .5s linear;
+    transition: all .5s linear;
+    border-radius: 10px; }
+  
+  .face {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    background-color: whitesmoke;
+    border-radius: 10px; }
+  
+  .back {
+    overflow: hidden;
+    z-index: -1;
+    display: block;
+    -webkit-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+    box-sizing: border-box; }
+    .back:before {
+      content: "";
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      z-index: -1;
+      background-size: 100% 100%;
+      -webkit-transform: rotateY(180deg);
+      -moz-transform: rotateY(180deg);
+      -ms-transform: rotateY(180deg);
+      -o-transform: rotateY(180deg);
+      transform: rotateY(180deg); }
+  
+  .front, .back {
+    transition: all .5s linear; }
+  
+  .front {
+    z-index: 1; }
+  
+  .flipped, .hovercard:hover {
+    -webkit-transform: rotateY(180deg);
+    transform: rotateY(180deg); }
+  
+  .separador {
+    margin-top: 220px;
+    margin-bottom: 132px;
+    border-radius: 8px; }
+  
+  .grupoall {
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    margin-left: 30px; }
+  
+  .bodyform {
+    margin: 0;
+    color: #6a6f8c;
+    background-image: url(https://img.freepik.com/vector-premium/fondo-copa-mundial-futbol-banner-campeonato-futbol-2022-qatar_29865-3052.jpg?w=2000);
+    font: 600 16px/18px 'Open Sans',sans-serif;
+    backdrop-filter: blur(10px); }
+  
+  .ainicio {
+    color: inherit;
+    text-decoration: none;
+    display: flex;
+    justify-content: start;
+    margin-left: 88px; }
+  
+  .login-wrap {
+    width: 100%;
+    margin: auto;
+    max-width: 525px;
+    min-height: 750px;
+    position: relative;
+    background: url(https://i.pinimg.com/originals/c7/00/10/c70010c9ea889f9cfc6af0686ae5806c.jpg) no-repeat center;
+    background-size: 100%;
+    box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19); }
+  
+  .login-html {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    padding: 90px 70px 50px 70px;
+    margin-top: 30px; }
+  
+  .login-html .sign-in-htm,
+  .login-html .sign-up-htm {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    transform: rotateY(180deg);
+    backface-visibility: hidden;
+    transition: all .4s linear; }
+  
+  .login-html .sign-in,
+  .login-html .sign-up,
+  .login-form .group .check {
+    display: none; }
+  
+  .login-html .tab,
+  .login-form .group .label,
+  .login-form .group .button {
+    text-transform: uppercase; }
+  
+  .login-html .tab {
+    font-size: 22px;
+    margin-right: 15px;
+    padding-bottom: 5px;
+    margin: 0 15px 10px 0;
+    display: inline-block;
+    border-bottom: 2px solid transparent; }
+  
+  .login-html .sign-in:checked + .tab,
+  .login-html .sign-up:checked + .tab {
+    color: #fff;
+    border-color: #1161ee; }
+  
+  .login-form {
+    min-height: 345px;
+    position: relative;
+    perspective: 1000px;
+    transform-style: preserve-3d; }
+  
+  .login-form .group {
+    margin-bottom: 15px; }
+  
+  .login-form .group .label,
+  .login-form .group .input,
+  .login-form .group .button {
+    width: 100%;
+    color: #fff;
+    display: block; }
+  
+  .login-form .group .input,
+  .login-form .group .button {
+    border: none;
+    padding: 15px 20px;
+    border-radius: 25px;
+    background: rgba(255, 255, 255, 0.1);
+    width: 376px; }
+  
+  .login-form .group input[data-type="password"] {
+    -webkit-text-security: circle; }
+  
+  .login-form .group .label {
+    color: white;
+    font-size: 12px; }
+  
+  .login-form .group .button {
+    background: #1161ee; }
+  
+  .login-form .group label .icon {
+    width: 15px;
+    height: 15px;
+    border-radius: 2px;
+    position: relative;
+    display: inline-block;
+    background: rgba(255, 255, 255, 0.1); }
+  
+  .login-form .group label .icon:before,
+  .login-form .group label .icon:after {
+    content: '';
+    width: 10px;
+    height: 2px;
+    background: #fff;
+    position: absolute;
+    transition: all .2s ease-in-out 0s; }
+  
+  .login-form .group label .icon:before {
+    left: 3px;
+    width: 5px;
+    bottom: 6px;
+    transform: scale(0) rotate(0); }
+  
+  .login-form .group label .icon:after {
+    top: 6px;
+    right: 0;
+    transform: scale(0) rotate(0); }
+  
+  .login-form .group .check:checked + label {
+    color: #fff; }
+  
+  .login-form .group .check:checked + label .icon {
+    background: #1161ee; }
+  
+  .login-form .group .check:checked + label .icon:before {
+    transform: scale(1) rotate(45deg); }
+  
+  .login-form .group .check:checked + label .icon:after {
+    transform: scale(1) rotate(-45deg); }
+  
+  .login-html .sign-in:checked + .tab + .sign-up + .tab + .login-form .sign-in-htm {
+    transform: rotate(0); }
+  
+  .login-html .sign-up:checked + .tab + .login-form .sign-up-htm {
+    transform: rotate(0); }
+  
+  .hr {
+    height: 2px;
+    margin: 60px 0 50px 0;
+    background: rgba(255, 255, 255, 0.2); }
+  
+  .foot-lnk {
+    text-align: center;
+    color: white; }
+  
+  .menu-bar {
+    border-radius: 25px;
+    height: fit-content;
+    display: inline-flex;
+    background-color: rgba(0, 0, 0, 0.4);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    align-items: center;
+    padding: 0 10px;
+    margin-top: 109px; }
+    .menu-bar li {
+      list-style: none;
+      color: yellow;
+      font-family: sans-serif;
+      font-weight: bold;
+      padding: 12px 46px;
+      margin: 0 8px;
+      position: relative;
+      cursor: pointer;
+      white-space: nowrap;
+      Font-family: Copperplate, Copperplate Gothic Light, fantasy; }
+      .menu-bar li::before {
+        content: " ";
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        z-index: -1;
+        transition: .2s;
+        border-radius: 25px; }
+      .menu-bar li:hover {
+        color: yellow; }
+        .menu-bar li:hover::before {
+          background-color: black;
+          box-shadow: 0px 3px 20px 0px black;
+          transform: scale(1.2); }
